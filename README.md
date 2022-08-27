@@ -1,0 +1,2 @@
+## Middlewares
+Validaciones. En esta oportunidad, vamos a desarrollar un middleware que nos permita llevar un registro sobre el acceso a diferentes rutas de nuestro proyecto, como un log para identificar a qué rutas se accedieron.

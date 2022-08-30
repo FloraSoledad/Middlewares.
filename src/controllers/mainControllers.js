@@ -11,4 +11,7 @@ module.exports = {
     contact: (req, res) => {
         return res.render('contact')
     },
+    admin : (req, res) => {
+        return res.render('admin')
+    }
 }

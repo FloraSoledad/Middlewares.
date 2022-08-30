@@ -1,10 +1,11 @@
 const router = require('express').Router();
-const {index, music, about, contact} = require('../controllers/mainControllers')
+const {index, music, about, contact, admin} = require('../controllers/mainControllers')
 router
     .get('/', index)
     .get('/music', music )
-    .get('/about:/', about)
+    .get('/about', about)
     .get('/contact', contact)
+    .get('/admin', admin)
 
 
 

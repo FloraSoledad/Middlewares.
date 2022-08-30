@@ -12,6 +12,11 @@ module.exports = {
         return res.render('contact')
     },
     admin : (req, res) => {
-        return res.render('admin')
-    }
+        return res.render('admin', {
+            user : req.query.user
+        })
+    },
+    login : (req, res) => {
+        return res.render('login')
+    },
 }
